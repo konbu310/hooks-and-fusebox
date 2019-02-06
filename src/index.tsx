@@ -8,6 +8,7 @@ import { UseMemoSample } from "./components/UseMemoSample";
 import { UseCallbackSample } from "./components/UseCallbackSample";
 import { UseRefSample } from "./components/UseRefSample";
 import { UseLayoutEffectSample } from "./components/UseLayoutEffect";
+import { UseDebugValueSample } from "./components/UseDebugValue";
 
 ReactDOM.render(
   <div>
@@ -19,6 +20,7 @@ ReactDOM.render(
     <UseCallbackSample />
     <UseRefSample />
     <UseLayoutEffectSample />
+    <UseDebugValueSample />
   </div>,
   document.getElementById("root")
 );
