@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "node fuse.js",
+    "build": "NODE_ENV=production node fuse.js"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.2",
+    "@types/react-dom": "^16.8.0",
+    "fuse-box": "^4.0.0-next.2",
+    "terser": "^3.16.1",
+    "typescript": "^3.3.1",
+    "uglify-js": "^3.4.9"
+  },
+  "dependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  }
+}
