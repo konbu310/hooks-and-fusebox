@@ -1,6 +1,7 @@
 import * as React from "react";
 import { FC } from "react";
 import { Horizon } from "./Horizon";
+import { useForceUpdate } from "../utils";
 
 const { useLayoutEffect, useRef, useState } = React;
 
@@ -29,9 +30,4 @@ export const UseLayoutEffectSample: FC<{}> = () => {
       <Horizon />
     </div>
   );
-};
-
-const useForceUpdate = () => {
-  const [value, set] = useState(true);
-  return () => set(!value);
 };
