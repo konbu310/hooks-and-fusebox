@@ -12,12 +12,12 @@ export const UseRefSample: FC<{}> = () => {
     const loop = () => {
       // 現在時刻を表示
       const now = new Date();
-      // prettier-ignore
-      displayAreaRef.current.textContent =
-        `${String(now.getHours()).padStart(2, "0")}:
+      displayAreaRef.current.textContent = `
+         ${String(now.getHours()).padStart(2, "0")}:
          ${String(now.getMinutes()).padStart(2, "0")}:
          ${String(now.getSeconds()).padStart(2, "0")}:
-         ${String(now.getMilliseconds()).padStart(3, "0")}`
+         ${String(now.getMilliseconds()).padStart(3, "0")}
+      `;
       rafid = window.requestAnimationFrame(loop);
     };
     loop();

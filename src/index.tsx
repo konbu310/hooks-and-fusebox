@@ -9,9 +9,10 @@ import { UseCallbackSample } from "./components/UseCallbackSample";
 import { UseRefSample } from "./components/UseRefSample";
 import { UseLayoutEffectSample } from "./components/UseLayoutEffect";
 import { UseDebugValueSample } from "./components/UseDebugValue";
+import { UseImperativeHandleSample } from "./components/UseImperativeHandle";
 
 ReactDOM.render(
-  <div>
+  <>
     <UseStateSample />
     <UseEffectSample />
     <UseContextSample />
@@ -21,6 +22,7 @@ ReactDOM.render(
     <UseRefSample />
     <UseLayoutEffectSample />
     <UseDebugValueSample />
-  </div>,
+    <UseImperativeHandleSample />
+  </>,
   document.getElementById("root")
 );
