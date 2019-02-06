@@ -20,3 +20,4 @@ cd hooks-and-fusebox
 yarn
 make dev # production build -> make build
 ```
+Now, you can see a result at http://localhost:4444
