@@ -15,7 +15,7 @@ export const UseMemoSample: FC<{ n: number }> = ({ n }) => {
 
   return (
     <div>
-      <h2>useMemo Sample</h2>
+      <h2>useMemo sample</h2>
       <p>
         1 + ... + {n} = <b>{sum}</b>
       </p>
