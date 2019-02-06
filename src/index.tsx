@@ -7,6 +7,7 @@ import { UseReducerSample } from "./components/UseReducerSample";
 import { UseMemoSample } from "./components/UseMemoSample";
 import { UseCallbackSample } from "./components/UseCallbackSample";
 import { UseRefSample } from "./components/UseRefSample";
+import { UseLayoutEffectSample } from "./components/UseLayoutEffect";
 
 ReactDOM.render(
   <div>
@@ -17,6 +18,7 @@ ReactDOM.render(
     <UseMemoSample n={100} />
     <UseCallbackSample />
     <UseRefSample />
+    <UseLayoutEffectSample />
   </div>,
   document.getElementById("root")
 );
