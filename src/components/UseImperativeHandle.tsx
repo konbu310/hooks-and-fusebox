@@ -56,8 +56,8 @@ const Clock = forwardRef((_props, ref) => {
           ${String(now.getSeconds()).padStart(2, "0")}:
           ${String(now.getMilliseconds()).padStart(3, "0")}
         `;
-        rafid = window.requestAnimationFrame(loop);
       }
+      rafid = window.requestAnimationFrame(loop);
     };
     loop();
     return () => window.cancelAnimationFrame(rafid);
